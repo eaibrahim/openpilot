@@ -1156,6 +1156,7 @@ FW_VERSIONS = {
   CAR.LEXUS_NX: {
     (Ecu.engine, 0x700, None): [
       b'\x01896637851000\x00\x00\x00\x00',
+      b'\x01896637850000\x00\x00\x00\x00',
     ],
     (Ecu.esp, 0x7b0, None): [
       b'F152678140\x00\x00\x00\x00\x00\x00',
@@ -1165,6 +1166,7 @@ FW_VERSIONS = {
     ],
     (Ecu.eps, 0x7a1, None): [
       b'8965B78060\x00\x00\x00\x00\x00\x00',
+      b'8965B78080\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.fwdRadar, 0x750, 0xf): [
       b'8821F4702300\x00\x00\x00\x00',
